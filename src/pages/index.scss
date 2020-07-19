@@ -1,0 +1,31 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: PingFangSC-Regular, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue',
+    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
+}
+
+.indexWrapper {
+  padding: 0 40px;
+  .introduction {
+    margin-top: 20px;
+  }
+  .userInfo {
+    margin-top: 20px;
+  }
+  .userResultPanel {
+    height: 300px;
+    margin: 20px 0;
+  }
+}
